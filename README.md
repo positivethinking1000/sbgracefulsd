@@ -6,7 +6,7 @@ Create a Spring Boot application running on ECS, so that when the services are
 drained, the application will process on in flight transactions before shutting down
 the SpringBoot application and then terminate the service.
 
-###Spring Boot Application
+### Spring Boot Application
 1.  Supports /helloworld http end point that will respond after 500ms delay
 and respond back a random number.
 1.  Containerize this application and deploy this on an ECS, behind and ELB.
