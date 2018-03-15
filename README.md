@@ -1,7 +1,7 @@
 # sbgracefulsd
 Graceful shutdown test for a Spring Boot application running on ECS.
 
-##Intent
+## Intent
 Create a Spring Boot application running on ECS, so that when the services are 
 drained, the application will process on in flight transactions before shutting down
 the SpringBoot application and then terminate the service.
