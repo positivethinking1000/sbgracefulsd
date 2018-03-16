@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 
+#swap files
+*.swp
+
+#ignore anything in target directory
+target/
+
 # Log file
 *.log
 
